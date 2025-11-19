@@ -1,0 +1,18 @@
+[project]
+name = "predicting-user-churn"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Erik Mende",email = "erikpeik@outlook.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
